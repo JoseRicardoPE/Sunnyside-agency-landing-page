@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fad400">
+  <meta name="title" content="Ejemplo landing page">
+<meta name="description" content="Ejemplo de una landing page diseñada con html5, css3, y javascript.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://josericardope.github.io/Sunnyside-agency-landing-page/">
+<meta property="og:title" content="Practica landing page Frontend Mentor">
+<meta property="og:description" content="Diseño landing page con html5, css3, y javascript.">
+<meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://josericardope.github.io/Sunnyside-agency-landing-page/">
+<meta property="twitter:title" content="Practica landing page Frontend Mentor">
+<meta property="twitter:description" content="Diseño landing page con html5, css3, y javascript.">
+<meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+  <script src="https://kit.fontawesome.com/849e8c00db.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Sunnyside agency landing page</title>
+</head>
+<body>
+
+  <!-- header -->
+  <header class="header">
+    <div class="header__container">
+      <figure class="header__logo">
+        <img src="images/logo.svg" alt="Logo_header" class="header__img">
+      </figure>
+      <div class="header__enlaces" id="headerEnlaces">
+        <i class="fas fa-angle-right btn__menu" id="btnMenuClose"></i>
+        <nav class="header__nav" id="enlaces">
+          <ul class="header__links" id="header__links">
+            <li class="header__items">
+              <a href="#" class="header__link">About</a>
+            </li>
+            <li class="header__items">
+              <a href="#" class="header__link">Services</a>
+            </li>
+            <li class="header__items">
+              <a href="#" class="header__link">Projects</a>
+            </li>
+            <li class="header__items header__items--menu">
+              <a href="#" class="header__link header__link--mod">Contact</a>
+            </li>
+        </nav>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="header__text">
+      <h2 class="header__title">We are creatives</h2>
+      <img src="images/icon-arrow-down.svg" alt="arrow_down" class=img>
+    </div>
+
+    <i class="fas fa-bars btn__menu" id="btnMenuOpen"></i>
+  </header>
+
+  <!-- Section products -->
+  <main class="main">
+    <section class="section__products">
+      <div class="section__review section__review--mod1">
+        <h2 class="section__review--subtitle">Transform your brand</h2>
+        <p class="section__paragraph">
+          We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <a href="#" class="cta">Learn more</a>
+      </div>
+
+      <div class="section__review">
+        <img src="images/desktop/egg.jpg" alt="image_egg" class="review__img">
+      </div>
+
+      <div class="section__review">
+        <img src="images/desktop/cup.jpg" alt="image_cup" class="review__img">
+      </div>
+
+      <div class="section__review section__review--mod2">
+        <h2 class="section__review--subtitle">Stand out to the right audience</h2>
+        <p class="section__paragraph">
+          Using a collaborative formula of designers, researchers, photographers, 
+          videographers, and copywriters, we’ll build and extend your brand in 
+          digital places. 
+        </p>
+        <a href="#" class="cta cta--mod">Learn more</a>
+      </div>
+
+      <div class="section__review">
+        <img src="images/desktop/cherry.jpg" alt="image_cherry" class="review__img">
+        <div class="section__review--text">
+          <h2 class="subtitle subtitle--green">Graphic design</h2>
+          <p class="section__paragraph section__paragraph--green">
+            Great design makes you memorable. We deliver artwork that underscores 
+            your brand message and captures potential clients attention.
+          </p>
+        </div>
+      </div>
+      <div class="section__review">
+        <img src="images/desktop/tangerine.jpg" alt="image_tangerine" class="review__img">
+        <div class="section__review--text">
+          <h2 class="subtitle subtitle--blue">Photography</h2>
+          <p class="section__paragraph section__paragraph--blue">
+            Increase your credibility by getting the most stunning, high-quality 
+            photos that improve your business image.
+          </p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Section employees -->
+    <section class="section__testimonials container">
+      <h2 class="section__title">Client testimonials</h2>
+      <div class="section__employees">
+        <div class="section__testimony">
+          <img src="images/image-emily.jpg" alt="photo__girl" class="figure">
+          <p class="section__text">
+            We put our trust in Sunnyside and they delivered, making sure our 
+            needs were met and deadlines were always hit.
+          </p>
+          <p class="section__sign">Emily R.</p>
+          <p class="section__profile">Marketing Director</p>
+        </div>
+        <div class="section__testimony">
+          <img src="images/image-thomas.jpg" alt="photo__girl" class="figure">
+          <p class="section__text">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s 
+            success made it a satisfying and enjoyable experience.
+          </p>
+          <p class="section__sign">Thomas S.</p>
+          <p class="section__profile">Chief Operating Officer</p>
+        </div>
+        <div class="section__testimony">
+          <img src="images/image-jennie.jpg" alt="photo__girl" class="figure">
+          <p class="section__text">
+            We put our trust in Sunnyside and they delivered, making sure our 
+            needs were met and deadlines were always hit.
+          </p>
+          <p class="section__sign">Jennie F.</p>
+          <p class="section__profile">Business Owner</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section images -->
+    <section class="section__images">
+      <div class="section__pictures">
+        <figure class="section__picture">
+          <img src="images/desktop/milkbottles.jpg" alt="bottle_of_milk" class="picture">
+        </figure>
+        <figure class="section__picture">
+          <img src="images/desktop/orange.jpg" alt="image_orange" class="picture">
+        </figure>
+        <figure class="section__picture">
+          <img src="images/desktop/cone.jpg" alt="image_icecream" class="picture">
+        </figure>
+        <figure class="section__picture">
+          <img src="images/desktop/sugarcubes.jpg" alt="bottle_of_milk" class="picture">
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer  -->
+  <footer class="footer">
+    <section class="footer__texts">
+      <figure class="footer__logo">
+        <img src="images/logo.svg" alt="logo_sunnyside" class="footer__img">
+      </figure>
+      <nav class="footer__nav">
+        <ul class="footer__link">
+          <li class="footer__items">
+            <a href="#" class="footer__links">About</a>
+          </li>
+          <li class="footer__items">
+            <a href="#" class="footer__links">Services</a>
+          </li>
+          <li class="footer__items">
+            <a href="#" class="footer__links">Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section class="section__social">
+      <div class="footer__social">
+        <a href="#" class="footer__icons">
+          <img src="images/icon-facebook.svg" alt="icon_facebook" class="footer__img">
+        </a>
+        <a href="#" class="footer__icons">
+          <img src="images/icon-instagram.svg" alt="icon_instagram" class="footer__img">
+        </a>
+        <a href="#" class="footer__icons">
+          <img src="images/icon-twitter.svg" alt="icon_twitter" class="footer__img">
+        </a>
+        <a href="#" class="footer__icons">
+          <img src="images/icon-pinterest.svg" alt="icon_pinterest+" class="footer__img">
+        </a>
+      </div>
+    </section>
+  </footer>
+  
+  <script src="js/eventos.js"></script>
+</body>
+</html>
